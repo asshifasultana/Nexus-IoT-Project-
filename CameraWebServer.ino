@@ -12,14 +12,14 @@
 // =======================
 // WiFi credentials
 // =======================
-const char *ssid     = "OPPO A95";
-const char *password = "v7a696gi";
+const char *ssid     = "Device name";
+const char *password = "password";
 
 // =======================
 // Telegram
 // =======================
-#define BOT_TOKEN "8335913262:AAGyQBAH7cXGnytt71_0dLaacDM0TMxVj3I"
-#define CHAT_ID   "8568162543"
+#define BOT_TOKEN  " Token number"
+#define CHAT_ID   "ID"
 
 WiFiClientSecure secured_client;
 UniversalTelegramBot bot(BOT_TOKEN, secured_client);
